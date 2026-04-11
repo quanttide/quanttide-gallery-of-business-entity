@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/).
 
+## [0.0.3] - 2026-04-11
+
+### Changed
+- 按 release.md 规范重写 release 技能
+- 扩充版本号为验收标准并明确验收方式
+- 将版本号规则移至附录
+
 ## [0.0.2] - 2026-04-11
 
 ### Added
