@@ -101,33 +101,27 @@ Release URL: `https://github.com/quanttide/quanttide-gallery-of-business-entity/
 - [ ] GitHub Release已创建
 - [ ] Release notes内容准确
 - [ ] 主仓库子模块引用已更新
+- [ ] 版本号符合语义化版本规范
 
-## 验收标准
-
-版本号符合语义化版本规范，使用以下验收方式：
-
-### 验收方式
-
+验收方式：
 ```bash
-# 1. 检查标签是否存在
+# 检查标签是否存在
 git tag -l v*
 
-# 2. 检查标签格式是否为 vX.Y.Z
+# 检查标签格式是否为 vX.Y.Z
 git tag -l "v[0-9]*.[0-9]*.[0-9]*"
 
-# 3. 检查 CHANGELOG 对应版本是否存在
+# 检查 CHANGELOG 对应版本是否存在
 grep "## \[v" CHANGELOG.md
 ```
 
-### 版本号规则
-
-遵循语义化版本: `主版本.次版本.修订号`
+版本号规则（语义化版本: `主版本.次版本.修订号`）：
 
 - **主版本（Major）**: 不兼容的API修改
 - **次版本（Minor）**: 向后兼容的功能新增
 - **修订号（Patch）**: 向后兼容的问题修复
 
-### 预发布版本格式
+预发布版本格式：
 
 - Alpha版本：`v0.0.1-alpha.1`
 - Beta版本：`v0.0.1-beta.1`
