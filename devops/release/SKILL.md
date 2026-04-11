@@ -24,7 +24,7 @@ description: 版本发布技能，遵循语义化版本规范，用于创建 Git
 
 1. 编辑 `CHANGELOG.md`，在首个版本标题前插入新版本:
    ```markdown
-   ## [<version>] - <YYYY-MM-DD>
+   ## [v<version>] - <YYYY-MM-DD>
 
    ### Added
    - 新增内容
@@ -56,12 +56,12 @@ description: 版本发布技能，遵循语义化版本规范，用于创建 Git
 
 1. 创建附注标签:
    ```bash
-   git tag -a <version> -m "Release version <version>"
+   git tag -a v<version> -m "Release version v<version>"
    ```
 
 2. 推送标签到远程:
    ```bash
-   git push origin <version>
+   git push origin v<version>
    ```
 
 ## 创建 GitHub Release
@@ -69,12 +69,12 @@ description: 版本发布技能，遵循语义化版本规范，用于创建 Git
 使用 GitHub CLI 创建 Release:
 
 ```bash
-gh release create <version> \
-  --title "<version>" \
+gh release create v<version> \
+  --title "v<version>" \
   --generate-notes
 ```
 
-Release URL: `https://github.com/quanttide/quanttide-gallery-of-business-entity/releases/tag/<version>`
+Release URL: `https://github.com/quanttide/quanttide-gallery-of-business-entity/releases/tag/v<version>`
 
 ## 更新主仓库引用
 
