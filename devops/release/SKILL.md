@@ -9,41 +9,46 @@ description: 版本发布技能，遵循语义化版本规范，用于创建 Git
 
 ## 发布前检查
 
-1. 确认所有变更已提交:
+1. 检查未发布内容:
    ```bash
-   git status
    git log <last-version>..HEAD --oneline
    ```
 
 2. 确认发布就绪:
-   - [ ] 所有变更已提交
-   - [ ] 无未跟踪文件
-   - [ ] CHANGELOG.md 存在
+   - [ ] 所有测试通过
+   - [ ] 文档已更新
+   - [ ] 无未提交的变更
+   - [ ] CHANGELOG已更新
+   - [ ] 版本号符合语义化版本规范
 
 ## 更新 CHANGELOG
 
-1. 编辑 `CHANGELOG.md`，在首个版本标题前插入新版本:
+1. 编辑 `CHANGELOG.md`:
    ```markdown
-   ## [v<version>] - <YYYY-MM-DD>
+   # CHANGELOG
+
+   ## [Unreleased]
+
+   ## [<version>] - <date>
 
    ### Added
-   - 新增内容
+   - 新增功能列表
 
    ### Changed
-   - 修改内容
+   - 修改内容列表
 
    ### Fixed
-   - 修复内容
+   - 修复问题列表
 
    ### Removed
-   - 移除内容
+   - 移除内容列表
    ```
 
-2. 分类标签说明:
-   - **Added**: 新增功能或文件
-   - **Changed**: 已有内容的修改
-   - **Fixed**: 问题修复
-   - **Removed**: 删除的内容
+2. 内容要求:
+   - 简洁明了，避免冗余描述
+   - 使用动词开头：「新增」「修改」「修复」「移除」
+   - 每条记录一行，不超过50字
+   - 按重要性排序
 
 3. 提交并推送:
    ```bash
@@ -56,12 +61,13 @@ description: 版本发布技能，遵循语义化版本规范，用于创建 Git
 
 1. 创建附注标签:
    ```bash
-   git tag -a v<version> -m "Release version v<version>"
+   git tag -a <version> -m "Release version <version-no-v>"
    ```
+   其中 `<version-no-v>` 为不带 `v` 前缀的版本号（如 `0.0.2`）
 
 2. 推送标签到远程:
    ```bash
-   git push origin v<version>
+   git push origin <version>
    ```
 
 ## 创建 GitHub Release
@@ -69,37 +75,31 @@ description: 版本发布技能，遵循语义化版本规范，用于创建 Git
 使用 GitHub CLI 创建 Release:
 
 ```bash
-gh release create v<version> \
-  --title "v<version>" \
+gh release create <version> \
+  --title "<version>" \
   --generate-notes
 ```
 
-Release URL: `https://github.com/quanttide/quanttide-gallery-of-business-entity/releases/tag/v<version>`
-
-## 更新主仓库引用
-
-在主仓库中更新子模块引用:
-
-```bash
-cd /home/iguo/repos/quanttide-tech
-git add docs/gallery
-git commit -m "chore: 同步 docs/gallery 子模块，发布 <version>"
-git push
-```
+Release URL: `https://github.com/quanttide/quanttide-gallery-of-business-entity/releases/tag/<version>`
 
 ## 发布后确认
 
-- [ ] CHANGELOG.md 已更新并提交
-- [ ] Git 标签已创建并推送
-- [ ] GitHub Release 已创建
-- [ ] 主仓库子模块引用已更新并推送
+- [ ] Git标签已创建并推送
+- [ ] GitHub Release已创建
+- [ ] Release notes内容准确
+- [ ] 主仓库子模块引用已更新
 
 ## 版本号规则
 
 遵循语义化版本: `主版本.次版本.修订号`
 
-- **主版本**: 不兼容的重大修改
-- **次版本**: 向后兼容的功能新增
-- **修订号**: 向后兼容的问题修复
+- **主版本（Major）**: 不兼容的API修改
+- **次版本（Minor）**: 向后兼容的功能新增
+- **修订号（Patch）**: 向后兼容的问题修复
 
-当前为早期阶段，版本号格式: `0.0.x`
+### 预发布版本
+
+- Alpha版本：`v0.0.1-alpha.1`
+- Beta版本：`v0.0.1-beta.1`
+- RC版本：`v0.0.1-rc.1`
+- Release版本：`v0.0.1`
