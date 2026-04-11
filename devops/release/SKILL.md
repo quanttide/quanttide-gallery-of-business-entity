@@ -103,3 +103,31 @@ Release URL: `https://github.com/quanttide/quanttide-gallery-of-business-entity/
 - Beta版本：`v0.0.1-beta.1`
 - RC版本：`v0.0.1-rc.1`
 - Release版本：`v0.0.1`
+
+## 规范来源
+
+版本发布操作遵循量潮科技工程标准的版本发布标准
+[https://github.com/quanttide/quanttide-specification-of-business-entity/blob/v0.1.1/devops/release.md](https://github.com/quanttide/quanttide-specification-of-business-entity/blob/v0.1.1/devops/release.md)
+
+## 问题处理
+
+### Release notes不符合规范
+
+使用`--generate-notes`创建Release时，自动生成的Release notes可能不符合CHANGELOG格式。
+
+检查方法：对比Release notes与CHANGELOG中对应版本的内容是否一致。
+
+纠正方法：
+```bash
+gh api repos/<owner>/<repo>/releases/<release-id> \
+  -X PATCH \
+  -f body="### Added
+
+- 内容从CHANGELOG提取
+
+### Changed
+
+- 内容从CHANGELOG提取"
+```
+
+预防措施：创建Release后，主动检查Release notes是否符合规范。
