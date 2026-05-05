@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/).
 
+## [0.1.0] - 2026-05-05
+
+### Changed
+
+- 重构：日期命名的日志文件统一改为 journal.md
+- 新增 write/report.md 工作报告
+
 ## [0.0.4] - 2026-04-11
 
 ### Added
