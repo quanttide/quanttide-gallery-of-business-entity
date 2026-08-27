@@ -4,6 +4,23 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/).
 
+## [0.1.1] - 2026-08-27
+
+### Changed
+
+- 整理 qtclass 文档格式，vibe_coding 重命名为 vibe-coding
+- 更新 myst.yml，添加 toc 配置
+
+### Removed
+
+- 删除 connect、docs、devops、mkt、execute、infra、read、think、write 目录
+- 删除 agent/prompts 目录
+
+### Moved
+
+- qtdata 迁移至归档站（data/archive/gallery/qtdata）
+- vibe-coding.md 迁移至归档站（data/archive/gallery/qtclass/vibe-coding.md）
+
 ## [0.1.0] - 2026-05-05
 
 ### Changed
