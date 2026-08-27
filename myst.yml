@@ -3,5 +3,10 @@ project:
   title: 量潮科技工作案例
   description: 量潮科技工作案例
   license: CC-BY-4.0
+  toc:
+    - file: README.md
+    - title: 量潮课堂
+      children:
+        - file: qtclass/big-data-practice.md
 site:
   template: book-theme
