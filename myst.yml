@@ -15,5 +15,8 @@ project:
     - title: 量潮咨询
       children:
         - file: qtconsult/index.md
+    - title: 量潮云
+      children:
+        - file: qtcloud/index.md
 site:
   template: book-theme
