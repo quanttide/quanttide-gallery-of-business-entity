@@ -8,5 +8,8 @@ project:
     - title: 量潮课堂
       children:
         - file: qtclass/big-data-practice.md
+    - title: 量潮数据
+      children:
+        - file: qtdata/index.md
 site:
   template: book-theme
