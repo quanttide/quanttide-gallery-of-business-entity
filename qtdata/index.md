@@ -8,11 +8,9 @@
 
 把散在互联网和客户系统里的原始数据完整、稳定地拿下来。
 
-**高频电商价格采集**。源于量潮科技前身——厦门大学 China's Prices Project（CPP）课题组十年的积累：每天采集天猫和京东平台 1000 余个关键词、约 500 万数据点，编制中国高频线上价格指数。CPP 期间经历了从个人电脑定时爬虫到腾讯云服务器集群、从 13 人手动维护到自动化系统的演进，也留下了爬虫第 23 版、小文件 CSV 存储困境、MongoDB 方案设计这些具体经验。十年后这套系统以对象存储、ClickHouse、Python 自动化流水线重新实现，指数按日构建、列式查询、可视化输出。
+**全球法规情报中心**。为需要持续跟踪多国医疗器械法规的客户建立法规情报监控：覆盖 FDA、EU MDR／IVDR、NMPA、MHRA、Health Canada、TGA、PMDA、MFDS、HSA、MDA 以及泰国、越南、菲律宾、印度尼西亚、印度等市场，按新法规、Guidance/Draft Guidance、MDCG 文件、法规修订、标准变化、产品分类变化、注册政策变化、监管通知八个维度逐条落库；法规结论一律以官方来源为准（FDA、Federal Register、European Commission、EUR-Lex、MDCG、NMPA、CMDE 及各国家监管机构），每条可追到原文。案例详情见[全球法规情报中心](./collection/index.md)。
 
 承接采集类需求时，反爬虫强度是报价前必须评估的一项——它直接决定工时与风险。
-
-**全球法规情报中心**。为需要持续跟踪多国医疗器械法规的客户建立法规情报监控：覆盖 FDA、EU MDR／IVDR、NMPA、MHRA、Health Canada、TGA、PMDA、MFDS、HSA、MDA 以及泰国、越南、菲律宾、印度尼西亚、印度等市场，按新法规、Guidance/Draft Guidance、MDCG 文件、法规修订、标准变化、产品分类变化、注册政策变化、监管通知八个维度逐条落库；法规结论一律以官方来源为准（FDA、Federal Register、European Commission、EUR-Lex、MDCG、NMPA、CMDE 及各国家监管机构），每条可追到原文。案例详情见[全球法规情报中心](./regulatory-intelligence.md)。
 
 ## 清洗
 
