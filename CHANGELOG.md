@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/).
 
+## [Unreleased]
+
+## [0.1.3] - 2026-09-24
+
+### Added
+
+- 具体案例「全球法规情报中心」（`qtdata/collection/index.md`），数据线首个按服务类别建立的案例
+- `.gitignore`：排除 `_build/` 等本地构建产物
+
+### Changed
+
+- 量潮数据的第三类服务由「大模型挖掘」统一改回「精炼」，与服务类别定义（采集／清洗／精炼）及对外口径一致
+- 法规情报案例由 `qtdata/regulatory-intelligence.md` 迁至 `qtdata/collection/index.md`，qtdata 开始按服务类别建子目录
+- 重写 README、STATUS、ROADMAP、AGENTS、CONTRIBUTING：格式对齐文档格式标准，内容分层——细则归 CONTRIBUTING，AGENTS 只留工作流程、口径红线与站点不变量
+
 ## [0.1.2] - 2026-09-24
 
 ### Added
