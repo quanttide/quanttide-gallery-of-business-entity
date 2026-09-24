@@ -4,6 +4,25 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/).
 
+## [0.1.2] - 2026-09-24
+
+### Added
+
+- 新增站点落地页 `index.md`：按量潮数据、量潮课堂、量潮云、量潮咨询的顺序介绍四条业务线
+- 新增四条业务线的案例总览：`qtdata/index.md`（采集／清洗／大模型挖掘）、`qtclass/index.md`（校企合作／社会招生）、`qtcloud/index.md`（SaaS／PaaS）、`qtconsult/index.md`（创业咨询／创新咨询）
+- 新增仓库文档套件 `AGENTS.md`、`CONTRIBUTING.md`、`STATUS.md`、`ROADMAP.md`
+
+### Changed
+
+- `myst.yml`：目录按业务线分组（数据、课堂、云、咨询），首项改为 `index.md`，并开启 `site.options.folders`
+- `README.md`：由标题改写为仓库说明，含结构、本地构建与发布方式
+- 量潮数据案例总览的分类由「采集／清洗／精炼」改为「采集／清洗／大模型挖掘」
+
+### Fixed
+
+- CI 补 `BASE_URL`：此前构建产出的资源路径与站内链接为根路径，在 GitHub Pages 项目站下全部 404
+- 产品页 URL 由兜底 slug（`/index-1` 等）恢复为 `/qtdata`、`/qtclass`、`/qtcloud`、`/qtconsult`
+
 ## [0.1.1] - 2026-08-27
 
 ### Changed
