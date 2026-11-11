@@ -11,7 +11,6 @@
 ```
 index.md                       站点落地页：四条业务线的简表
 qtdata/index.md                量潮数据入口（采集／清洗／精炼）
-qtdata/collection/index.md     采集案例：全球法规情报中心
 qtclass/index.md               量潮课堂入口（校企合作／社会招生）
 qtclass/big-data-practice.md   案例：大数据导论实践课任务书
 qtcloud/index.md               量潮云入口（SaaS／PaaS）
@@ -19,7 +18,7 @@ qtconsult/index.md             量潮咨询入口（创业咨询／创新咨询�
 myst.yml                       MyST 站点配置（toc 与主题）
 ```
 
-仓库文档：[AGENTS](AGENTS.md)（Agent 工作规则）、[CONTRIBUTING](CONTRIBUTING.md)（贡献与案例编写规范）、[STATUS](STATUS.md)（当前快照）、[ROADMAP](ROADMAP.md)（路线图）、[CHANGELOG](CHANGELOG.md)（版本变更）。
+仓库文档：[CHANGELOG](CHANGELOG.md)（版本变更）。
 
 ## 本地预览与构建
 

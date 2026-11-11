@@ -6,6 +6,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-11-11
+
+### Added
+
+- 量潮管理后台职能案例 8 篇：群聊、会议（connect），培训、员工关系（human），部门、职位、职级（org），角色（product），并注册进 `myst.yml` toc
+- 量潮管理后台入口页 `qtadmin/index.md`：按组织／人力／沟通／产品四个职能域汇总上述页面
+- 站点落地页 `index.md` 新增「量潮管理后台」一节
+- `myst.yml` toc 新增「量潮管理后台」分组，qtadmin 各页面由散挂收进组内
+
+### Removed
+
+- 删除采集案例「全球法规情报中心」（`qtdata/collection/`），量潮数据入口页同步移除该案例段落，`myst.yml` toc 同步移除
+- 删除仓库文档 `STATUS.md`、`ROADMAP.md`、`CONTRIBUTING.md`、`AGENTS.md`，`README.md` 文档列表与站内链接同步清理
+
 ## [0.1.3] - 2026-09-24
 
 ### Added

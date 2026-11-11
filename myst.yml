@@ -8,7 +8,6 @@ project:
     - title: 量潮数据
       children:
         - file: qtdata/index.md
-        - file: qtdata/collection/index.md
     - title: 量潮课堂
       children:
         - file: qtclass/index.md
@@ -19,14 +18,17 @@ project:
     - title: 量潮咨询
       children:
         - file: qtconsult/index.md
-    - file: qtadmin/connect/group.md
-    - file: qtadmin/connect/meeting.md
-    - file: qtadmin/human/training.md
-    - file: qtadmin/human/relation.md
-    - file: qtadmin/org/department.md
-    - file: qtadmin/org/position.md
-    - file: qtadmin/org/rank.md
-    - file: qtadmin/product/role.md
+    - title: 量潮管理后台
+      children:
+        - file: qtadmin/index.md
+        - file: qtadmin/connect/group.md
+        - file: qtadmin/connect/meeting.md
+        - file: qtadmin/human/training.md
+        - file: qtadmin/human/relation.md
+        - file: qtadmin/org/department.md
+        - file: qtadmin/org/position.md
+        - file: qtadmin/org/rank.md
+        - file: qtadmin/product/role.md
 site:
   template: book-theme
   options:

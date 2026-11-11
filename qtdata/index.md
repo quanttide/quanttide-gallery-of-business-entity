@@ -8,8 +8,6 @@
 
 把散在互联网和客户系统里的原始数据完整、稳定地拿下来。
 
-**全球法规情报中心**。为需要持续跟踪多国医疗器械法规的客户建立法规情报监控：覆盖 FDA、EU MDR／IVDR、NMPA、MHRA、Health Canada、TGA、PMDA、MFDS、HSA、MDA 以及泰国、越南、菲律宾、印度尼西亚、印度等市场，按新法规、Guidance/Draft Guidance、MDCG 文件、法规修订、标准变化、产品分类变化、注册政策变化、监管通知八个维度逐条落库；法规结论一律以官方来源为准（FDA、Federal Register、European Commission、EUR-Lex、MDCG、NMPA、CMDE 及各国家监管机构），每条可追到原文。案例详情见[全球法规情报中心](./collection/index.md)。
-
 承接采集类需求时，反爬虫强度是报价前必须评估的一项——它直接决定工时与风险。
 
 ## 清洗
