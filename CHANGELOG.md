@@ -6,14 +6,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0
 
 ## [Unreleased]
 
-### Added
-
-- qtadmin 新增职责案例 `qtadmin/org/duty.md`：创始人职能从日常经营（行政权）与制度建设（立法权）转向梳理制度与编制法典（司法权），明确两个工作方案（CEO办公室群梳理编制案例、大群解释固化制度）及各自的执行安排
-
-### Changed
-
-- `qtadmin/connect/group.md` 重组为二级标题「选群」（就地讨论、岔题转群）与「自媒体文章链接」（创始人个人／创始人工作／公司工作三层级提醒渠道）
-
 ## [0.2.0] - 2026-11-11
 
 ### Added
@@ -22,6 +14,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0
 - 量潮管理后台入口页 `qtadmin/index.md`：按组织／人力／沟通／产品四个职能域汇总上述页面
 - 站点落地页 `index.md` 新增「量潮管理后台」一节
 - `myst.yml` toc 新增「量潮管理后台」分组，qtadmin 各页面由散挂收进组内
+- 职责案例 `qtadmin/org/duty.md`：创始人职能从日常经营（行政权）与制度建设（立法权）转向梳理制度与编制法典（司法权），明确两个工作方案（CEO办公室群梳理编制案例、大群解释固化制度）及各自的执行安排，并注册进 `myst.yml` toc 与入口页
+
+### Changed
+
+- `qtadmin/connect/group.md` 重组为二级标题「选群」（就地讨论、岔题转群）与「自媒体文章链接」（创始人个人／创始人工作／公司工作三层级提醒渠道）
 
 ### Removed
 

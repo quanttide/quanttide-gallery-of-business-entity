@@ -28,6 +28,7 @@ project:
         - file: qtadmin/org/department.md
         - file: qtadmin/org/position.md
         - file: qtadmin/org/rank.md
+        - file: qtadmin/org/duty.md
         - file: qtadmin/product/role.md
 site:
   template: book-theme

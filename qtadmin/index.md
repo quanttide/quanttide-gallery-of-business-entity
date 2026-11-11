@@ -4,7 +4,7 @@
 
 ## 组织
 
-部门、职位、职级的设置与区别——[部门](./org/department.md)、[职位](./org/position.md)、[职级](./org/rank.md)。
+创始人职责的划分——[职责](./org/duty.md)；部门、职位、职级的设置与区别——[部门](./org/department.md)、[职位](./org/position.md)、[职级](./org/rank.md)。
 
 ## 人力
 
