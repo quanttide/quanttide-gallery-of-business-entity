@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0
 
 ## [Unreleased]
 
+### Added
+
+- qtadmin 新增职责案例 `qtadmin/org/duty.md`：创始人职能从日常经营（行政权）与制度建设（立法权）转向梳理制度与编制法典（司法权），明确两个工作方案（CEO办公室群梳理编制案例、大群解释固化制度）及各自的执行安排
+
+### Changed
+
+- `qtadmin/connect/group.md` 重组为二级标题「选群」（就地讨论、岔题转群）与「自媒体文章链接」（创始人个人／创始人工作／公司工作三层级提醒渠道）
+
 ## [0.2.0] - 2026-11-11
 
 ### Added
