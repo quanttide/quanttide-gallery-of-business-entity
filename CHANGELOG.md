@@ -6,6 +6,27 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0
 
 ## [Unreleased]
 
+## [0.2.2] - 2026-11-12
+
+### Added
+
+- 产品分层案例 `qtadmin/product/layer.md`：领域层是模块化能力单元（沟通云、人事云），应用层对应实际业务需求（量潮课堂），量潮云是领域层大集成的应用层，注册进 `myst.yml` toc
+- 众包复用案例 `qtclass/crowd.md`：课堂实践体系复用众包管理模块的上线流程（quanttide-crowd 更新 profile → AI 上线 qtclass → lite 发新 patch）与合规留痕，注册进 `myst.yml` toc
+- 资产案例 `qtadmin/asset/gallery.md`：公司 gallery 是领域 gallery 的精简版，领域 gallery 是最终事实源，注册进 `myst.yml` toc
+
+### Changed
+
+- `qtadmin/product/scope.md` 容器范围补充 studio（付费客户管理用户的学习进度）与访问链路：进来先看 site，用户从 site 根据需要进入 lite，付费客户进入 studio，该模式对量潮所有平台成立
+- `qtadmin/product/method.md` 落地流程补充 UX 优先：UI 先不管、能用即可，最后所有 APP 一起统一；新增真实需求：实训基地是课堂的养料，做出来的就是真实软件
+- `qtadmin/product/role.md` 产品策划协作补充：快速反应、面对一线需求，把发现的问题转化成产品
+- `qtadmin/index.md` 入口页登记产品分层与资产板块，组织板块移除部门链接
+- `qtclass/index.md` 登记众包板块，移除失效的任务书链接
+
+### Removed
+
+- `qtadmin/org/department.md` 整体迁往 quanttide-org 领域 gallery（`docs/gallery/department/index.md`），toc 同步移除
+- `qtclass/big-data-practice.md` 过时任务书，已上架 quanttide-course 领域 gallery（`docs/gallery/course/index.md`），toc 同步移除
+
 ## [0.2.1] - 2026-11-12
 
 ### Added
