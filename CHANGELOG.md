@@ -6,6 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0
 
 ## [Unreleased]
 
+## [0.2.3] - 2026-11-12
+
+### Changed
+
+- `qtadmin/index.md` 入口页取消全部文档引用，各职能板块改为纯概述
+
+### Removed
+
+- `qtadmin/delib/rule.md` 议事规则案例整体移除，`myst.yml` toc 同步移除该条目
+
 ## [0.2.2] - 2026-11-12
 
 ### Added
