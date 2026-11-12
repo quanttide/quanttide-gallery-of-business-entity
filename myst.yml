@@ -29,7 +29,6 @@ project:
         - file: qtadmin/org/position.md
         - file: qtadmin/org/rank.md
         - file: qtadmin/org/duty.md
-        - file: qtadmin/delib/rule.md
         - file: qtadmin/product/role.md
         - file: qtadmin/product/method.md
         - file: qtadmin/product/scope.md
