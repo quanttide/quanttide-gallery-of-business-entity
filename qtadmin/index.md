@@ -20,7 +20,7 @@
 
 ## 产品
 
-产品策划的角色培养、工作方法与容器范围——[角色](./product/role.md)、[方法](./product/method.md)、[范围](./product/scope.md)。
+产品策划的角色培养、工作方法、容器范围与体系分层——[角色](./product/role.md)、[方法](./product/method.md)、[范围](./product/scope.md)、[分层](./product/layer.md)。
 
 ## 资产
 
