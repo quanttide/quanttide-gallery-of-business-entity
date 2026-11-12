@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0
 
 ## [Unreleased]
 
+## [0.2.1] - 2026-11-12
+
 ### Added
 
 - 绩效案例 `qtadmin/human/performance.md`：证明材料与推荐信分层发放、先例约束、退出衔接，注册进 `myst.yml` toc 与入口页
