@@ -11,7 +11,7 @@ project:
     - title: 量潮课堂
       children:
         - file: qtclass/index.md
-        - file: qtclass/big-data-practice.md
+        - file: qtclass/crowd.md
     - title: 量潮云
       children:
         - file: qtcloud/index.md
@@ -26,7 +26,6 @@ project:
         - file: qtadmin/human/training.md
         - file: qtadmin/human/relation.md
         - file: qtadmin/human/performance.md
-        - file: qtadmin/org/department.md
         - file: qtadmin/org/position.md
         - file: qtadmin/org/rank.md
         - file: qtadmin/org/duty.md
@@ -34,6 +33,8 @@ project:
         - file: qtadmin/product/role.md
         - file: qtadmin/product/method.md
         - file: qtadmin/product/scope.md
+        - file: qtadmin/product/layer.md
+        - file: qtadmin/asset/gallery.md
 site:
   template: book-theme
   options:
