@@ -20,4 +20,4 @@
 
 ## 产品
 
-产品策划的角色培养与工作方法——[角色](./product/role.md)、[方法](./product/method.md)。
+产品策划的角色培养、工作方法与容器范围——[角色](./product/role.md)、[方法](./product/method.md)、[范围](./product/scope.md)。

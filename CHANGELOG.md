@@ -10,8 +10,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0
 
 - 绩效案例 `qtadmin/human/performance.md`：证明材料与推荐信分层发放、先例约束、退出衔接，注册进 `myst.yml` toc 与入口页
 - 议事规则案例 `qtadmin/delib/rule.md`：公司与联盟两级认证、制衡机制、立法信息反馈，新增议事域，注册进 `myst.yml` toc 与入口页
-- `qtadmin/org/duty.md` 新增 CEO 助理职责：需要创始人账号操作的事务由助理扫码登录代操作
-- 产品方法案例 `qtadmin/product/method.md`：落地流程（Axure 原型导出交大模型生成 HTML）、调研先行、site 与 lite 容器分工，注册进 `myst.yml` toc 与入口页
+- 产品方法案例 `qtadmin/product/method.md`：落地流程（原型软件不限制、团队层面交付 HTML）与调研先行，注册进 `myst.yml` toc 与入口页
+- 产品范围案例 `qtadmin/product/scope.md`：site 与 lite 容器分工——site 介绍规则、基本不接入服务器，lite 提供信息、动态变化，注册进 `myst.yml` toc 与入口页
 
 ### Changed
 
