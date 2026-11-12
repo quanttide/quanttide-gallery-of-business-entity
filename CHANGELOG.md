@@ -6,6 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0
 
 ## [Unreleased]
 
+### Added
+
+- 绩效案例 `qtadmin/human/performance.md`：证明材料与推荐信分层发放、先例约束、退出衔接，注册进 `myst.yml` toc 与入口页
+- 议事规则案例 `qtadmin/delib/rule.md`：公司与联盟两级认证、制衡机制、立法信息反馈，新增议事域，注册进 `myst.yml` toc 与入口页
+
+### Changed
+
+- `qtadmin/connect/group.md` 选群新增私下讨论：不便创始人在场的讨论用秘书处办公室等没有创始人的群
+- `qtadmin/org/duty.md` 新增 CEO 助理职责：需要创始人账号操作的事务由助理扫码登录代操作
+
 ## [0.2.0] - 2026-11-11
 
 ### Added
