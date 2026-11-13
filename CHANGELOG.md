@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0
 ### Changed
 
 - `qtadmin/product/scope.md` 新增 cli 板块：cli 是 AI 的入口，平台内部不一定内置 AI，AI 能力通过 Skill 适配接入
+- `qtadmin/product/scope.md` cli 板块补充自建边界：外部工具 cli 能批量做的就用它，做不了的批量操作是自建系统的建设重点
 
 ## [0.2.3] - 2026-11-12
 
