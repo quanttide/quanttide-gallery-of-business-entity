@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- `qtadmin/product/scope.md` 新增 cli 板块：cli 是 AI 的入口，平台内部不一定内置 AI，AI 能力通过 Skill 适配接入
+
 ## [0.2.3] - 2026-11-12
 
 ### Changed
