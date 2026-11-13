@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0
 
 ## [Unreleased]
 
+### Added
+
+- 工作日志手册 `qtadmin/work/journal.md`（自 handbook 迁入）：输入原始想法与原始聊天记录，流程收集→整理→提炼→表达，注册进 `myst.yml` toc
+
 ## [0.2.4] - 2026-11-13
 
 ### Added
