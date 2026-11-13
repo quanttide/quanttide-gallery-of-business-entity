@@ -37,6 +37,7 @@ project:
         - file: qtadmin/secret/account.md
         - file: qtadmin/finance/journal.md
         - file: qtadmin/econ/org.md
+        - file: qtadmin/feishu/wiki.md
 site:
   template: book-theme
   options:
