@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0
 
 ## [Unreleased]
 
+## [0.2.4] - 2026-11-13
+
 ### Added
 
 - 账号管理案例 `qtadmin/secret/account.md`：密码本与密码设置纪律、企业账号维护（quanttide-secret 机密管理），注册进 `myst.yml` toc
