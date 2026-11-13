@@ -12,6 +12,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0
 - 记账案例 `qtadmin/finance/journal.md`：审批数据是记账的主要依据，审批引擎未接管的缺口，注册进 `myst.yml` toc
 - 平台经济案例 `qtadmin/econ/org.md`：分成与分工（实训基地赚钱、研究院不赚钱）、抽成即税收、平台与生态一体两面，注册进 `myst.yml` toc
 - 知识库案例 `qtadmin/feishu/wiki.md`：归置位置（议事第二大脑）、文档权限两层开法（知识库对外访问 + 单个文档开访问），注册进 `myst.yml` toc
+- 审批案例 `qtadmin/feishu/approval.md`：审批引擎未接管、默认审批者人工改设、入离职流程遗漏，与记账的上下游关系，注册进 `myst.yml` toc
 - `qtadmin/index.md` 入口页新增财务、经济、飞书三板块，资产板块补账号管理概述
 
 ### Changed

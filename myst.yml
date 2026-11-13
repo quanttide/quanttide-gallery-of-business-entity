@@ -38,6 +38,7 @@ project:
         - file: qtadmin/finance/journal.md
         - file: qtadmin/econ/org.md
         - file: qtadmin/feishu/wiki.md
+        - file: qtadmin/feishu/approval.md
 site:
   template: book-theme
   options:
