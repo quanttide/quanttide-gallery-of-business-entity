@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0
 
 ## [Unreleased]
 
+### Added
+
+- 账号管理案例 `qtadmin/secret/account.md`：密码本与密码设置纪律、企业账号维护（quanttide-secret 机密管理），注册进 `myst.yml` toc
+- 记账案例 `qtadmin/finance/journal.md`：审批数据是记账的主要依据，审批引擎未接管的缺口，注册进 `myst.yml` toc
+- 平台经济案例 `qtadmin/econ/org.md`：分成与分工（实训基地赚钱、研究院不赚钱）、抽成即税收、平台与生态一体两面，注册进 `myst.yml` toc
+- `qtadmin/index.md` 入口页新增财务、经济两板块，资产板块补账号管理概述
+
 ### Changed
 
 - `qtadmin/product/scope.md` 新增 cli 板块：cli 是 AI 的入口，平台内部不一定内置 AI，AI 能力通过 Skill 适配接入

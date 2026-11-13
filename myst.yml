@@ -34,6 +34,9 @@ project:
         - file: qtadmin/product/scope.md
         - file: qtadmin/product/layer.md
         - file: qtadmin/asset/gallery.md
+        - file: qtadmin/secret/account.md
+        - file: qtadmin/finance/journal.md
+        - file: qtadmin/econ/org.md
 site:
   template: book-theme
   options:
